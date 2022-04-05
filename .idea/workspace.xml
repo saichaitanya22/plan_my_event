@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Created NavBar">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/plan_my_event.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/Images/marriage_image_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +41,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="rearrange.code.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="actions.on.save" />
@@ -54,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649143814104</updated>
       <workItem from="1649143822623" duration="9495000" />
+      <workItem from="1649193262217" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>

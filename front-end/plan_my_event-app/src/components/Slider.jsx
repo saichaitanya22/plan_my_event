@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 import {ArrowLeftOutlined, ArrowRightOutlined} from '@material-ui/icons'
 import pic from "../Images/marriage_image_4.jpg"
+import {sliderItems} from "../data";
 
 const Container = styled.div`
   width: 100%;
@@ -85,36 +86,17 @@ const Slider = () => {
                 <ArrowLeftOutlined/>
             </Arrow>
             <Wrapper slideIndex={slideIndex}>
-                <Slide>
-                    <ImgContainer>
-                        <Image src={pic}/>
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>Marriage</Title>
-                        <Description>Where there is love there is life.</Description>
-                        <Button>Learn More</Button>
-                    </InfoContainer>
-                </Slide>
-                <Slide>
-                    <ImgContainer>
-                        <Image src={pic}/>
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>Marriage</Title>
-                        <Description>Where there is love there is life.</Description>
-                        <Button>Learn More</Button>
-                    </InfoContainer>
-                </Slide>
-                <Slide>
-                    <ImgContainer>
-                        <Image src={pic}/>
-                    </ImgContainer>
-                    <InfoContainer>
-                        <Title>Marriage</Title>
-                        <Description>Where there is love there is life.</Description>
-                        <Button>Learn More</Button>
-                    </InfoContainer>
-                </Slide>
+                {sliderItems.map((item) => (
+                    <Slide>
+                        <ImgContainer>
+                            <Image src={pic}/>
+                        </ImgContainer>
+                        <InfoContainer>
+                            <Title>{item.title}</Title>
+                            <Description>{item.desc}</Description>
+                            <Button>Learn More</Button>
+                        </InfoContainer>
+                    </Slide>))}
             </Wrapper>
             <Arrow direction="right" onClick={() => handleClick("right")}>
                 <ArrowRightOutlined/>

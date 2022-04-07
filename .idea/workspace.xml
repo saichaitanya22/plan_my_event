@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Created NavBar">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/plan_my_event.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/Images/marriage_image_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
+    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Login and Register Pages - complete">
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1649143814104</updated>
       <workItem from="1649143822623" duration="9495000" />
-      <workItem from="1649193262217" duration="1617000" />
+      <workItem from="1649193262217" duration="2143000" />
+      <workItem from="1649263322981" duration="1098000" />
+      <workItem from="1649322476664" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649153746593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Slider - complete">
+      <created>1649196081750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649196081750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +131,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added HomePage" />
     <MESSAGE value="Created NavBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created NavBar" />
+    <MESSAGE value="Created Slider - complete" />
+    <MESSAGE value="Login and Register Pages - complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and Register Pages - complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

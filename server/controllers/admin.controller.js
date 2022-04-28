@@ -2,9 +2,9 @@ const Admin = require("../models/admin");
 
 module.exports.create = function (req, res) {
     // Validate request
-    Admin.findOne({email: req.body.email}, function (err, admin) {
+    Admin.findOne({username: req.body.username}, function (err, admin) {
         if (admin) {
-            console.log('Email ID already registered');
+            console.log('Username already registered');
             res.redirect('/');
         } else if (err) {
             console.log(err.message);
@@ -12,7 +12,7 @@ module.exports.create = function (req, res) {
         } else {
             //Create a admin
             const admin = new Admin({
-                adminname: req.body.adminname,
+                username: req.body.username,
                 password: req.body.password
             })
             admin.save().then(data => {
@@ -55,7 +55,7 @@ module.exports.update = function (req, res) {
         .then(data => {
             if (!data) {
                 res.status(404).send({
-                    message: `Cannot update Tutorial with id=${id}. Maybe Admin was not found!`
+                    message: `Cannot update Admin with id=${id}. Maybe Admin was not found!`
                 });
             } else res.send({message: "Admin was updated successfully."});
         })

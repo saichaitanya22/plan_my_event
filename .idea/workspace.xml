@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Login and Register Pages - complete">
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
+    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="admin added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/admin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/admin.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/admin.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,11 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,6 +76,7 @@
       <workItem from="1649322476664" duration="3291000" />
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
+      <workItem from="1651166763986" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -107,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649325122110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="admin added">
+      <created>1651167715633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651167715633</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +134,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">
@@ -129,7 +142,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/navbar_branch" />
+                        <option value="admin" />
                       </list>
                     </value>
                   </entry>
@@ -146,7 +159,8 @@
     <MESSAGE value="Created NavBar" />
     <MESSAGE value="Created Slider - complete" />
     <MESSAGE value="Login and Register Pages - complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and Register Pages - complete" />
+    <MESSAGE value="admin added" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

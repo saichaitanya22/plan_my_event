@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const { Schema }  = mongoose;
+const {Schema} = mongoose;
 
 const userSchema = new Schema(
     {
@@ -28,11 +28,11 @@ const userSchema = new Schema(
         address: String,
         vendor: Boolean
     },
-    { timestamps: true }
+    {timestamps: true}
 );
 
-userSchema.method("toJSON", function() {
-    const { __v, _id, ...object } = this.toObject();
+userSchema.method("toJSON", function () {
+    const {__v, _id, ...object} = this.toObject();
     object.id = _id;
     return object;
 });

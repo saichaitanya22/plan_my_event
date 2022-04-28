@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Login and Register Pages - complete">
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/admin.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/admin.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/blog_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/blog.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/blog.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +78,7 @@
       <workItem from="1649322476664" duration="3291000" />
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
+      <workItem from="1651166763986" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>

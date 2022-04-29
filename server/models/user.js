@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const {Schema} = mongoose;
 
 const userSchema = new Schema(
@@ -26,7 +25,10 @@ const userSchema = new Schema(
             match: [/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
         },
         address: String,
-        vendor: Boolean
+        location: {
+            type: String,
+            required: true
+        }
     },
     {timestamps: true}
 );

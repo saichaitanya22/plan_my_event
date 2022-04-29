@@ -4,9 +4,9 @@ const router = express.Router();
 const usersController = require('../controllers/user.controller');
 
 // Create a new User
-router.post("/register", usersController.create);
-// Retrieve all Vendors
-router.get("/show/vendors", usersController.findAllVendors);
+router.post("/users/register", usersController.create);
+// Retrieve users with given location
+router.get("/users/location", usersController.findByLocation);
 // Retrieve a single User with id
 router.get("/users/:id", usersController.findOne);
 // Update a User with id

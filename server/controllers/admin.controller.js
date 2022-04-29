@@ -38,9 +38,8 @@ module.exports.findOne = function (req, res) {
             else res.send(data);
         })
         .catch(err => {
-            res
-                .status(500)
-                .send({message: "Error retrieving Admin with id=" + id});
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving Admin with id=" + id});
         });
 };
 
@@ -60,6 +59,7 @@ module.exports.update = function (req, res) {
             } else res.send({message: "Admin was updated successfully."});
         })
         .catch(err => {
+            console.log("Error: ", err);
             res.status(500).send({
                 message: "Error updating Admin with id=" + id
             });
@@ -81,6 +81,7 @@ module.exports.delete = function (req, res) {
             }
         })
         .catch(err => {
+            console.log("Error: ", err);
             res.status(500).send({
                 message: "Could not delete Admin with id=" + id
             });

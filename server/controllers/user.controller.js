@@ -29,6 +29,7 @@ module.exports.create = function (req, res) {
 
                 res.send(data);
             }).catch(err => {
+                console.log("Error: ", err);
                 res.status(500).send({
                     message:
                         err.message || "Some error occurred while creating the User."
@@ -47,9 +48,8 @@ module.exports.findOne = function (req, res) {
             else res.send(data);
         })
         .catch(err => {
-            res
-                .status(500)
-                .send({message: "Error retrieving User with id=" + id});
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving User with id=" + id});
         });
 };
 
@@ -69,6 +69,7 @@ module.exports.update = function (req, res) {
             } else res.send({message: "User was updated successfully."});
         })
         .catch(err => {
+            console.log("Error: ", err);
             res.status(500).send({
                 message: "Error updating User with id=" + id
             });
@@ -90,6 +91,7 @@ module.exports.delete = function (req, res) {
             }
         })
         .catch(err => {
+            console.log("Error: ", err);
             res.status(500).send({
                 message: "Could not delete User with id=" + id
             });
@@ -105,8 +107,20 @@ module.exports.findByLocation = function (req, res) {
             else res.send(data);
         })
         .catch(err => {
-            res
-                .status(500)
-                .send({message: "Error retrieving users from location " + loc});
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving users from location " + loc});
+        });
+};
+
+module.exports.getAll = function (req, res) {
+    User.find()
+        .then(data => {
+            if (!data)
+                res.status(404).send({message: "No user found"});
+            else res.send(data);
+        })
+        .catch(err => {
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving users"});
         });
 }

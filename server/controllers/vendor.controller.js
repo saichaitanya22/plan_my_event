@@ -30,6 +30,7 @@ module.exports.create = function (req, res) {
 
                 res.send(data);
             }).catch(err => {
+                console.log("Error: ", err);
                 res.status(500).send({
                     message:
                         err.message || "Some error occurred while creating the Vendor."
@@ -48,9 +49,8 @@ module.exports.findOne = function (req, res) {
             else res.send(data);
         })
         .catch(err => {
-            res
-                .status(500)
-                .send({message: "Error retrieving Vendor with id=" + id});
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving Vendor with id=" + id});
         });
 };
 
@@ -70,6 +70,7 @@ module.exports.update = function (req, res) {
             } else res.send({message: "Vendor was updated successfully."});
         })
         .catch(err => {
+            console.log("Error: ", err);
             res.status(500).send({
                 message: "Error updating Vendor with id=" + id
             });
@@ -91,6 +92,7 @@ module.exports.delete = function (req, res) {
             }
         })
         .catch(err => {
+            console.log("Error: ", err);
             res.status(500).send({
                 message: "Could not delete Vendor with id=" + id
             });
@@ -106,8 +108,20 @@ module.exports.findByLocation = function (req, res) {
             else res.send(data);
         })
         .catch(err => {
-            res
-                .status(500)
-                .send({message: "Error retrieving vendors from location " + loc});
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving vendors from location " + loc});
         });
-}
+};
+
+module.exports.getAll = function (req, res) {
+    Vendor.find()
+        .then(data => {
+            if (!data)
+                res.status(404).send({message: "No vendor found"});
+            else res.send(data);
+        })
+        .catch(err => {
+            console.log("Error: ", err);
+            res.status(500).send({message: "Error retrieving vendors"});
+        });
+};

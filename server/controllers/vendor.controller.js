@@ -2,7 +2,12 @@ const Vendor = require("../models/vendor");
 
 module.exports.create = function (req, res) {
     // Validate request
-    Vendor.findOne({email: req.body.email}, function (err, vendor) {
+    Vendor.findOne({
+        $or: [
+            {email: req.body.email},
+            {username: req.body.username},
+            {phone: req.body.phone}]
+    }, function (err, vendor) {
         if (vendor) {
             console.log('Email ID already registered');
             res.redirect('/');
@@ -17,7 +22,8 @@ module.exports.create = function (req, res) {
                 phone: req.body.phone,
                 email: req.body.email,
                 address: req.body.address,
-                location: req.body.location
+                location: req.body.location,
+                quotation: req.body.quotation
             })
             vendor.save().then(data => {
                 console.log("Data inserted!");

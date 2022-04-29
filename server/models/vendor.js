@@ -30,7 +30,7 @@ const vendorSchema = new Schema(
             required: [true]
         },
         quotation: {
-            type: String,
+            type: Number,
             required: [true]
         }
     },

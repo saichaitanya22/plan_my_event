@@ -2,9 +2,14 @@ const User = require("../models/user");
 
 module.exports.create = function (req, res) {
     // Validate request
-    User.findOne({email: req.body.email}, function (err, user) {
+    User.findOne({
+        $or: [
+            {email: req.body.email},
+            {username: req.body.username},
+            {phone: req.body.phone}]
+    }, function (err, user) {
         if (user) {
-            console.log('Email ID already registered');
+            console.log('Already registered');
             res.redirect('/');
         } else if (err) {
             console.log(err.message);
@@ -17,7 +22,7 @@ module.exports.create = function (req, res) {
                 phone: req.body.phone,
                 email: req.body.email,
                 address: req.body.address,
-                location: req.body.location
+                location: req.body.location,
             })
             user.save().then(data => {
                 console.log("Data inserted!");

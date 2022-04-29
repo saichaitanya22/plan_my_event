@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="admin added">
+    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="admin ready to use">
+      <change afterPath="$PROJECT_DIR$/server/controllers/vendor.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/vendor.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/admin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/admin.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/admin.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,7 @@
       <workItem from="1649322476664" duration="3291000" />
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
-      <workItem from="1651166763986" duration="1305000" />
+      <workItem from="1651166763986" duration="6226000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651167715633</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="admin ready to use">
+      <created>1651168145586</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651168145586</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +172,8 @@
     <MESSAGE value="Created Slider - complete" />
     <MESSAGE value="Login and Register Pages - complete" />
     <MESSAGE value="admin added" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin added" />
+    <MESSAGE value="admin ready to use" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin ready to use" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

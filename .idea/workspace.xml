@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="vendoring">
+    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="backend organised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/admin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/admin.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/blog.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/blog.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/vendor.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/vendor.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/admin.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/vendor.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/vendor.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +69,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saich\Desktop\plan_my_event\front-end\plan_my_event-app\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alank\Desktop\BITS Books\SE\Project\plan_my_event\server" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -177,7 +188,8 @@
     <MESSAGE value="admin added" />
     <MESSAGE value="admin ready to use" />
     <MESSAGE value="vendoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="vendoring" />
+    <MESSAGE value="backend organised" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend organised" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

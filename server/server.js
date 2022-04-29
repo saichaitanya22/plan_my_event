@@ -16,10 +16,10 @@ app.use(cors(corsOptions));
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
 // parse requests of content-type - application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
 // app.use(express.urlencoded());
 
-const db = require("./server/config/mongoose");
+const db = require("./config/mongoose");
 
 // simple route
 // app.get('/', function (req,res) {
@@ -27,7 +27,7 @@ const db = require("./server/config/mongoose");
 // });
 
 // use express router
-app.use('/', require('./server/routes'));
+app.use('/', require('./routes'));
 //require("./server/routes/index")(app);
 
 // set port, listen for requests

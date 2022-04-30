@@ -32,6 +32,11 @@ const vendorSchema = new Schema(
         quotation: {
             type: Number,
             required: [true]
+        },
+        description: {
+            type: String,
+            required: [true],
+            minLength: 30
         }
     },
     {timestamps: true}

@@ -123,4 +123,24 @@ module.exports.getAll = function (req, res) {
             console.log("Error: ", err);
             res.status(500).send({message: "Error retrieving users"});
         });
-}
+};
+
+module.exports.validateCred = function (req, res) {
+    User.findOne({
+        $and: [
+            {username: req.body.username},
+            {password: req.body.password},
+        ]
+    }, function (err, user) {
+        if (err) {
+            console.log("Error: ", err)
+            res.status(500).send({message: "Error validating credentials"});
+        } else if (!user) {
+            console.log("Wrong username/password!");
+            res.status(404).send({message: "Wrong username/password"});
+        } else {
+            console.log("Valid Credentials")
+            res.send(user);
+        }
+    });
+};

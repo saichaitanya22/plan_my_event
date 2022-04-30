@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="backend organised">
+    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Add validate credentials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/admin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/admin.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/blog.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/blog.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/vendor.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/vendor.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/vendor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/admin.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/vendor.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/vendor.routes.js" afterDir="false" />
     </list>
@@ -89,6 +86,7 @@
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
       <workItem from="1651166763986" duration="8420000" />
+      <workItem from="1651309164650" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -189,7 +187,8 @@
     <MESSAGE value="admin ready to use" />
     <MESSAGE value="vendoring" />
     <MESSAGE value="backend organised" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend organised" />
+    <MESSAGE value="Add validate credentials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add validate credentials" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

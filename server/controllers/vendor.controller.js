@@ -23,7 +23,8 @@ module.exports.create = function (req, res) {
                 email: req.body.email,
                 address: req.body.address,
                 location: req.body.location,
-                quotation: req.body.quotation
+                quotation: req.body.quotation,
+                description: req.body.description
             })
             vendor.save().then(data => {
                 console.log("Data inserted!");
@@ -124,4 +125,24 @@ module.exports.getAll = function (req, res) {
             console.log("Error: ", err);
             res.status(500).send({message: "Error retrieving vendors"});
         });
+};
+
+module.exports.validateCred = function (req, res) {
+    Vendor.findOne({
+        $and: [
+            {username: req.body.username},
+            {password: req.body.password},
+        ]
+    }, function (err, vendor) {
+        if (err) {
+            console.log("Error: ", err)
+            res.status(500).send({message: "Error validating credentials"});
+        } else if (!vendor) {
+            console.log("Wrong username/password!");
+            res.status(404).send({message: "Wrong username/password"});
+        } else {
+            console.log("Valid Credentials")
+            res.send(vendor);
+        }
+    });
 };

@@ -87,3 +87,23 @@ module.exports.delete = function (req, res) {
             });
         });
 };
+
+module.exports.validateCred = function (req, res) {
+    Admin.findOne({
+        $and: [
+            {username: req.body.username},
+            {password: req.body.password},
+        ]
+    }, function (err, admin) {
+        if (err) {
+            console.log("Error: ", err)
+            res.status(500).send({message: "Error validating credentials"});
+        } else if (!admin) {
+            console.log("Wrong username/password!");
+            res.status(404).send({message: "Wrong username/password"});
+        } else {
+            console.log("Valid Credentials")
+            res.send(admin);
+        }
+    });
+};

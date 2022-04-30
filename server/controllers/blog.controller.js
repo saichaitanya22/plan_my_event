@@ -115,7 +115,7 @@ module.exports.deleteAll = function (req, res) {
                     err.message || "Some error occurred while removing all tutorials."
             });
         });
-}
+};
 
 module.exports.findAllPublished = function (req, res) {
     Blog.find({published: true})
@@ -129,4 +129,4 @@ module.exports.findAllPublished = function (req, res) {
                     err.message || "Some error occurred while retrieving tutorials."
             });
         });
-}
+};

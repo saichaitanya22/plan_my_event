@@ -1,15 +1,17 @@
 const express = require('express');
 const router = express.Router();
 
-const adminsController = require('../controllers/admin.controller');
+const adminController = require('../controllers/admin.controller');
 
 // Create a new User
-router.post("/", adminsController.create);
+router.post("/", adminController.create);
+// Validate credentials
+router.post("/login", adminController.validateCred);
 // Retrieve a single User with id
-router.get("/:id", adminsController.findOne);
+router.get("/:id", adminController.findOne);
 // Update a User with id
-router.put("/:id", adminsController.update);
+router.put("/:id", adminController.update);
 // Delete a User with id
-router.delete("/:id", adminsController.delete);
+router.delete("/:id", adminController.delete);
 
 module.exports = router;

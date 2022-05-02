@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Login and Register Pages - complete">
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
+    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Created data file">
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/Images/vendor_image_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/Images/vendor_image_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Categories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/CategoryItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/responsive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +38,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27MxZ09PnjxDdtY1LFEpWaunxyy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -70,7 +80,14 @@
       <workItem from="1649263322981" duration="1098000" />
       <workItem from="1649322476664" duration="3291000" />
       <workItem from="1649329255146" duration="711000" />
-      <workItem from="1649356456948" duration="1572000" />
+      <workItem from="1649356456948" duration="5123000" />
+      <workItem from="1649502408818" duration="872000" />
+      <workItem from="1649601686931" duration="754000" />
+      <workItem from="1649692367615" duration="3010000" />
+      <workItem from="1649758758153" duration="52000" />
+      <workItem from="1649872312068" duration="1313000" />
+      <workItem from="1651412282133" duration="598000" />
+      <workItem from="1651469607518" duration="1733000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -107,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649325122110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created data file">
+      <created>1649358087521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649358087521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,11 +166,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added HomePage" />
     <MESSAGE value="Created NavBar" />
     <MESSAGE value="Created Slider - complete" />
     <MESSAGE value="Login and Register Pages - complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and Register Pages - complete" />
+    <MESSAGE value="Created data file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created data file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,11 +3,13 @@
 import Home from "./pages/Home";
 import Register from "./pages/Register"
 import Login from "./pages/Login"
+import VendorCards from "./components/Categories";
 
 function App() {
     return (
         <div>
             <Home/>
+            <VendorCards/>
         </div>
     );
 }

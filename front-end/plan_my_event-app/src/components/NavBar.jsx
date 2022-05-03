@@ -1,6 +1,10 @@
 import React from 'react';
 import {Search, LocationOn} from "@material-ui/icons";
 import styled from 'styled-components';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "../pages/Home";
+import Register from "../pages/Register";
+import Login from "../pages/Login";
 
 const Container = styled.div`
   height: 60px;
@@ -38,10 +42,12 @@ const Right = styled.div`
   justify-content: flex-end;
 `;
 
-const MenuItem = styled.div`
+const MenuItem = styled.a`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  color: inherit;
+  text-decoration: inherit;
 `;
 
 const Center = styled.div`
@@ -70,8 +76,8 @@ const Navbar = () => {
                 </Left>
                 <Center><Logo>EVENT.</Logo></Center>
                 <Right>
-                    <MenuItem>REGISTER</MenuItem>
-                    <MenuItem>SIGN-IN</MenuItem>
+                    <MenuItem href="/register">REGISTER</MenuItem>
+                    <MenuItem href="/login">SIGN-IN</MenuItem>
                 </Right>
             </Wrapper>
         </Container>

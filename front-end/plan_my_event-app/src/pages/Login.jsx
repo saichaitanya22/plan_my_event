@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Navbar from "../components/NavBar";
 
 const Container = styled.div`
   width: 100vw;
@@ -50,6 +51,7 @@ const Link = styled.a`
 
 const Login = () => {
     return (
+
         <Container>
             <Wrapper>
                 <Title>SIGN IN</Title>

@@ -24,7 +24,8 @@ module.exports.create = function (req, res) {
                 address: req.body.address,
                 location: req.body.location,
                 quotation: req.body.quotation,
-                description: req.body.description
+                description: req.body.description,
+                img: req.body.img
             })
             vendor.save().then(data => {
                 console.log("Data inserted!");

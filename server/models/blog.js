@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const { Schema }  = mongoose;
+const {Schema} = mongoose;
 
 const blogSchema = new Schema(
     {
@@ -14,13 +14,21 @@ const blogSchema = new Schema(
             required: [true],
             minLength: 50
         },
-        published: Boolean
+        img: {
+            type: String,
+            required: [true]
+        },
+        published: Boolean,
+        postedBy: {
+            type: String,
+            required: [true]
+        }
     },
-    { timestamps: true }
+    {timestamps: true}
 );
 
-blogSchema.method("toJSON", function() {
-    const { __v, _id, ...object } = this.toObject();
+blogSchema.method("toJSON", function () {
+    const {__v, _id, ...object} = this.toObject();
     object.id = _id;
     return object;
 });

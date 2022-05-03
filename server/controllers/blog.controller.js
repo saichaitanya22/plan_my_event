@@ -11,6 +11,8 @@ module.exports.create = function (req, res) {
     const blog = new Blog({
         title: req.body.title,
         description: req.body.description,
+        img: req.body.img,
+        postedBy: req.body.id,
         published: req.body.published ? req.body.published : false
     })
 

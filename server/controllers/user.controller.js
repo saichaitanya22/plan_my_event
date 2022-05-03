@@ -22,7 +22,7 @@ module.exports.create = function (req, res) {
                 phone: req.body.phone,
                 email: req.body.email,
                 address: req.body.address,
-                location: req.body.location,
+                city: req.body.city,
             })
             user.save().then(data => {
                 console.log("Data inserted!");
@@ -99,16 +99,16 @@ module.exports.delete = function (req, res) {
 };
 
 module.exports.findByLocation = function (req, res) {
-    const loc = req.body.location;
-    User.find({location: loc})
+    const loc = req.body.city;
+    User.find({city: loc})
         .then(data => {
             if (!data)
-                res.status(404).send({message: "Not found user with location " + loc});
+                res.status(404).send({message: "Not found user with city " + loc});
             else res.send(data);
         })
         .catch(err => {
             console.log("Error: ", err);
-            res.status(500).send({message: "Error retrieving users from location " + loc});
+            res.status(500).send({message: "Error retrieving users from city " + loc});
         });
 };
 

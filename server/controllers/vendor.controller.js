@@ -22,7 +22,7 @@ module.exports.create = function (req, res) {
                 phone: req.body.phone,
                 email: req.body.email,
                 address: req.body.address,
-                location: req.body.location,
+                city: req.body.city,
                 quotation: req.body.quotation,
                 description: req.body.description,
                 img: req.body.img
@@ -102,16 +102,16 @@ module.exports.delete = function (req, res) {
 };
 
 module.exports.findByLocation = function (req, res) {
-    const loc = req.body.location;
-    Vendor.find({location: loc})
+    const loc = req.body.city;
+    Vendor.find({city: loc})
         .then(data => {
             if (!data)
-                res.status(404).send({message: "Not found vendor with location " + loc});
+                res.status(404).send({message: "Not found vendor with city " + loc});
             else res.send(data);
         })
         .catch(err => {
             console.log("Error: ", err);
-            res.status(500).send({message: "Error retrieving vendors from location " + loc});
+            res.status(500).send({message: "Error retrieving vendors from city " + loc});
         });
 };
 

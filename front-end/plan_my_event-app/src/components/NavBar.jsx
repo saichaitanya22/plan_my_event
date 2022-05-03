@@ -78,6 +78,7 @@ const Navbar = () => {
                 </Left>
                 <Center href="/"><Logo>EVENT.</Logo></Center>
                 <Right>
+                    <MenuItem href={"/vendorRegistration"}>Are you a vendor?</MenuItem>
                     <MenuItem href="/register">REGISTER</MenuItem>
                     <MenuItem href="/login">SIGN-IN</MenuItem>
                 </Right>

@@ -4,6 +4,7 @@
 import Home from "./pages/Home";
 import Register from "./pages/Register"
 import Login from "./pages/Login"
+import VendorRegister from "./pages/VendorRegister";
 import VendorCards from "./components/Categories";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import React from "react";
@@ -19,6 +20,8 @@ function App() {
                        element={<Register/>}/>
                 <Route path="/login"
                        element={<Login/>}/>
+                <Route path="/vendorRegistration"
+                       element={<VendorRegister/>}/>
             </Routes>
         </Router>
     );

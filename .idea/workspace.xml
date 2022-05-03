@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="register and login navigation - done">
+    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="added navigation and navbar in sigin and register pages">
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/VendorRegister.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +48,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/plan_my_event-app/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pc files/codingForReal/testing" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,7 +67,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="" />
+      <changelist id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="added navigation and navbar in sigin and register pages" />
       <created>1649143814104</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -80,6 +78,7 @@
       <workItem from="1649322476664" duration="3291000" />
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
+      <workItem from="1651580073066" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651576355907</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added navigation and navbar in sigin and register pages">
+      <created>1651576850527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651576850527</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +185,8 @@
     <MESSAGE value="added location and event-type search containers, removed cart" />
     <MESSAGE value="small change" />
     <MESSAGE value="register and login navigation - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="register and login navigation - done" />
+    <MESSAGE value="added navigation and navbar in sigin and register pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added navigation and navbar in sigin and register pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

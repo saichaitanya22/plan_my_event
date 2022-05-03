@@ -45,8 +45,9 @@ const Button = styled.button`
 const Link = styled.a`
   margin: 5px 0;
   font-size: 12px;
-  text-decoration: underline;
   cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
 `;
 
 const LoginForm = () => {
@@ -60,7 +61,7 @@ const LoginForm = () => {
                     <Input placeholder="password"/>
                     <Button>LOGIN</Button>
                     <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-                    <Link>CREATE A NEW ACCOUNT</Link>
+                    <Link href="/Register">CREATE A NEW ACCOUNT</Link>
                 </Form>
             </Wrapper>
         </Container>

@@ -68,11 +68,11 @@ const Navbar = () => {
                 <Left>
                     <LocationOn/>
                     <SearchContainer>
-                        <Input placeholder="Enter your location"/>
+                        <Input placeholder="Location"/>
                         <Search style={{color: "gray", fontSize: 16}}/>
                     </SearchContainer>
                     <SearchContainer>
-                        <Input placeholder="Enter your event type"/>
+                        <Input placeholder="Event type"/>
                         <Search style={{color: "gray", fontSize: 16}}/>
                     </SearchContainer>
                 </Left>

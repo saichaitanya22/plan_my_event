@@ -50,9 +50,11 @@ const MenuItem = styled.a`
   text-decoration: inherit;
 `;
 
-const Center = styled.div`
+const Center = styled.a`
   flex: 1;
   text-align: center;
+  color: inherit;
+  text-decoration: inherit;
 `;
 
 const Logo = styled.h1`
@@ -74,7 +76,7 @@ const Navbar = () => {
                         <Search style={{color: "gray", fontSize: 16}}/>
                     </SearchContainer>
                 </Left>
-                <Center><Logo>EVENT.</Logo></Center>
+                <Center href="/"><Logo>EVENT.</Logo></Center>
                 <Right>
                     <MenuItem href="/register">REGISTER</MenuItem>
                     <MenuItem href="/login">SIGN-IN</MenuItem>

@@ -7,6 +7,7 @@ import Login from "./pages/Login"
 import VendorCards from "./components/Categories";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import React from "react";
+import Navbar from "./components/NavBar";
 
 function App() {
     return (

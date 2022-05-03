@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Navbar from "../components/NavBar";
 
 const Container = styled.div`
   width: 100vw;
@@ -45,7 +46,7 @@ const Button = styled.button`
   cursor: pointer;
 `
 
-const Register = () => {
+const RegisterForm = () => {
     return (
         <Container>
             <Wrapper>
@@ -65,6 +66,15 @@ const Register = () => {
                 </Form>
             </Wrapper>
         </Container>
+    )
+}
+
+const Register = () => {
+    return (
+        <div>
+            <Navbar/>
+            <RegisterForm/>
+        </div>
     )
 }
 

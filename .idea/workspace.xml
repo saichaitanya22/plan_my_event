@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="Made vendor registration page">
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Review.jsx" afterDir="false" />
+    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="Review page added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Review.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Review.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <workItem from="1649322476664" duration="3291000" />
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
-      <workItem from="1651580073066" duration="1882000" />
+      <workItem from="1651580073066" duration="4012000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651580402917</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Review page added">
+      <created>1651583657364</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651583657364</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +202,8 @@
     <MESSAGE value="register and login navigation - done" />
     <MESSAGE value="added navigation and navbar in sigin and register pages" />
     <MESSAGE value="Made vendor registration page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made vendor registration page" />
+    <MESSAGE value="Review page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review page added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

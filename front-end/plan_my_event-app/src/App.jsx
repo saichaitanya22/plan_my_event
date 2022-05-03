@@ -9,6 +9,7 @@ import VendorCards from "./components/Categories";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import React from "react";
 import Navbar from "./components/NavBar";
+import Review from "./pages/Review";
 
 function App() {
     return (
@@ -22,6 +23,8 @@ function App() {
                        element={<Login/>}/>
                 <Route path="/vendorRegistration"
                        element={<VendorRegister/>}/>
+                <Route path="/review"
+                       element={<Review/>}/>
             </Routes>
         </Router>
     );

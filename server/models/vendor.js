@@ -37,7 +37,13 @@ const vendorSchema = new Schema(
             type: String,
             required: [true],
             minLength: 30
-        }
+        },
+        img: {
+            type: String,
+            required: [true]
+        },
+        review: [String],
+        views: Number
     },
     {timestamps: true}
 );

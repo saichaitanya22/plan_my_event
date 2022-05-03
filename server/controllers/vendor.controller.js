@@ -147,3 +147,21 @@ module.exports.validateCred = function (req, res) {
         }
     });
 };
+
+module.exports.review = function (req, res) {
+    const vID = req.body.id;
+    Vendor.findOneAndUpdate({id: vID}, {"$push": {"review": req.body.review}})
+        .then(data => {
+            if (!data) {
+                res.status(404).send({
+                    message: `Cannot update vendor with id=${vID}. Maybe Vendor was not found!`
+                });
+            } else res.send({message: "Review saved!"});
+        })
+        .catch(err => {
+            console.log("Error: ", err);
+            res.status(500).send({
+                message: "Error updating Vendor with id=" + vID
+            });
+        });
+};

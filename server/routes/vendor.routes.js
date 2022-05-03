@@ -17,5 +17,7 @@ router.put("/:id", vendorController.update);
 router.delete("/:id", vendorController.delete);
 // Retrieve all vendors
 router.get("", vendorController.getAll);
+// Add review for vendor
+router.post("/review", vendorController.review);
 
 module.exports = router;

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9651b3-184a-408d-9b46-77dcbf2aee8a" name="Changes" comment="Login and Register Pages - complete">
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
+    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="Login and Register Pages - complete">
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Product.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/ProductList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/App.jsx" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

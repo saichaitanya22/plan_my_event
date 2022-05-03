@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="Login and Register Pages - complete">
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Products.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/ProductList.jsx" afterDir="false" />
+    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="added location and event-type search containers, removed cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/NavBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27MxZ09PnjxDdtY1LFEpWaunxyy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -154,7 +152,8 @@
     <MESSAGE value="Created NavBar" />
     <MESSAGE value="Created Slider - complete" />
     <MESSAGE value="Login and Register Pages - complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and Register Pages - complete" />
+    <MESSAGE value="added location and event-type search containers, removed cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="added location and event-type search containers, removed cart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

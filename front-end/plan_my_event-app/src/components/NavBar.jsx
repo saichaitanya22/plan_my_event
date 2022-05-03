@@ -1,7 +1,6 @@
 import React from 'react';
-import {Search, ShoppingCartOutlined} from "@material-ui/icons";
+import {Search, LocationOn} from "@material-ui/icons";
 import styled from 'styled-components';
-import {Badge} from "@material-ui/core";
 
 const Container = styled.div`
   height: 60px;
@@ -20,16 +19,11 @@ const Left = styled.div`
   align-items: center;
 `;
 
-const Language = styled.span`
-  font-size: 14;
-  cursor: pointer;
-`;
-
 const SearchContainer = styled.div`
   border: 0.5px solid lightgray;
   display: flex;
   align-items: center;
-  margin-left: 25px;
+  margin-left: 10px;
   padding: 5px;
 `;
 
@@ -45,7 +39,7 @@ const Right = styled.div`
 `;
 
 const MenuItem = styled.div`
-  font-size: 14;
+  font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
 `;
@@ -64,9 +58,13 @@ const Navbar = () => {
         <Container>
             <Wrapper>
                 <Left>
-                    <Language>EN</Language>
+                    <LocationOn/>
                     <SearchContainer>
-                        <Input/>
+                        <Input placeholder="Enter your location"/>
+                        <Search style={{color: "gray", fontSize: 16}}/>
+                    </SearchContainer>
+                    <SearchContainer>
+                        <Input placeholder="Enter your event type"/>
                         <Search style={{color: "gray", fontSize: 16}}/>
                     </SearchContainer>
                 </Left>
@@ -74,11 +72,6 @@ const Navbar = () => {
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
                     <MenuItem>SIGN-IN</MenuItem>
-                    <MenuItem>
-                        <Badge badgeContent={4} color="primary">
-                            <ShoppingCartOutlined/>
-                        </Badge>
-                    </MenuItem>
                 </Right>
             </Wrapper>
         </Container>

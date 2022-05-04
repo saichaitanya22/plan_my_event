@@ -49,7 +49,14 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
 `;
+
+const LearnMore = styled.a`
+  color: inherit;
+  text-decoration: inherit;
+`
 
 const Arrow = styled.div`
   width: 50px;
@@ -94,7 +101,8 @@ const Slider = () => {
                         <InfoContainer>
                             <Title>{item.title}</Title>
                             <Description>{item.desc}</Description>
-                            <Button>Learn More</Button>
+                            <Button><LearnMore href="https://williz4.github.io/wedding-planner/services.html">Learn
+                                More</LearnMore></Button>
                         </InfoContainer>
                     </Slide>))}
             </Wrapper>

@@ -1,5 +1,7 @@
 import styled from "styled-components"
 import Navbar from "../components/NavBar";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 const Container = styled.div`
   width: 100vw;
@@ -46,15 +48,32 @@ const Button = styled.button`
   cursor: pointer;
 `
 
+
+const handleName = (event) => {
+    this.setState({[event.target.name]: event.target.value});
+
+    fetch('http://localhost:8080/user/register', {
+        method: 'POST',
+        // We convert the React state to JSON and send it as the POST body
+        body: JSON.stringify(this.state)
+    }).then(function (response) {
+        console.log(response)
+        return response.json();
+    });
+
+    event.preventDefault();
+}
+
+
 const RegisterForm = () => {
     return (
         <Container>
             <Wrapper>
                 <Title>CREATE AN ACCOUNT</Title>
                 <Form>
-                    <Input placeholder="First Name"/>
+                    <Input type="text" name="userName" placeholder="username"
+                           onChange={handleName}/>
                     <Input placeholder="Last Name"/>
-                    <Input placeholder="Username"/>
                     <Input placeholder="Email"/>
                     <Input placeholder="Password"/>
                     <Input placeholder="Confirm Password"/>
@@ -62,7 +81,9 @@ const RegisterForm = () => {
                         By creating an account, I consent to the processing of my personal
                         data in accordance with the <b>PRIVACY POLICY</b>
                     </Agreement>
-                    <Button>CREATE</Button>
+                    <Popup trigger={<Button>CREATE</Button>}>
+                        <div>User created successfully</div>
+                    </Popup>
                 </Form>
             </Wrapper>
         </Container>

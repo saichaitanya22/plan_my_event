@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="reviews">
+    <list default="true" id="4ac38516-b791-4c5d-8cc2-3b92fec801e0" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/back-end/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/vendor.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/vendor.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/components/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/plan_my_event-app/src/pages/Register.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saich\Desktop\plan_my_event\front-end\plan_my_event-app\src" />
@@ -68,6 +78,9 @@
       <workItem from="1649329255146" duration="711000" />
       <workItem from="1649356456948" duration="1572000" />
       <workItem from="1651580073066" duration="1882000" />
+      <workItem from="1651609297337" duration="5458000" />
+      <workItem from="1651641255011" duration="961000" />
+      <workItem from="1651642742258" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="Added HomePage">
       <created>1649147331306</created>
@@ -159,6 +172,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -188,6 +204,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added HomePage" />
     <MESSAGE value="Created NavBar" />
     <MESSAGE value="Created Slider - complete" />
